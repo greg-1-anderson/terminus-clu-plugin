@@ -1,5 +1,7 @@
 # Terminus CLU client
 
+[![Unofficial](https://img.shields.io/badge/Pantheon-Unofficial-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#unofficial)
+
 A terminus plugin to create pull requests based on composer.lock updates.
 
 ## Requirements
