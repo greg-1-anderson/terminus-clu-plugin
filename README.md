@@ -5,7 +5,8 @@
 A terminus plugin to create pull requests based on composer.lock updates.
 
 ## Requirements
-Depends on Terminus Build Tools, and only works for a Build Tools managed site.
+
+Depends on [Terminus Build Tools](https://github.com/pantheon-systems/terminus-build-tools-plugin), and only works for a Build Tools managed site.
 
 ## Installation
 
