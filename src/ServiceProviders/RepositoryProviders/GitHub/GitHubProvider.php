@@ -9,7 +9,7 @@ class GitHubProvider extends BuildToolsGitHubProvider implements GitProvider {
 
   public function cloneRepository($target_project, $destination) {
     $github_token = $this->token();
-    $remote_url = "https://${github_token}:x-oauth-basic@github.com/${target_project}.git";
+    $remote_url = "https://$github_token:x-oauth-basic@github.com/$target_project.git";
     $this->execWithRedaction("git clone {remote} $destination", ['remote' => $remote_url], ['remote' => $target_project]);
   }
 
